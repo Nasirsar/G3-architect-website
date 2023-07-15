@@ -3,7 +3,18 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-header{
+
+.btn-primary {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
+}
+
+header {
     background-color: #e4c6a5;
     padding: 50px 240px;
 }
@@ -13,35 +24,73 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-nav> ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 20px;
     font-weight: 500px;
-    font-size:1rem ;
+    font-size: 1rem;
 }
-.nav-title{
+
+.nav-title {
     font-family: 700px;
     font-size: 2.8rem;
     color: rgb(20, 20, 20);
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: rgb(19, 14, 14);
 }
-.banner-contain{
+
+.banner-contain {
     max-width: 880px;
     text-align: center;
     margin: 0 auto;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-family: 700px;
     color: #131313;
 }
-.banner-description{
+
+.banner-description {
     color: #727272;
     font-size: 1rem;
+}
+
+.banner img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* responsive style */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+/* tablets or mediem */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+        }
+        header{
+            padding: 40px;
+        }
+    }
+
+
 }
