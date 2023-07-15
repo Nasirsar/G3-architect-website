@@ -99,6 +99,11 @@ nav li a {
     .feature-lis{
         color: #727272;
         font-weight: 500px;
+        font-size:2 rem;
+    }
+    .main-section{
+        display: flex;
+        align-items: center;
     }
 
 
@@ -120,6 +125,9 @@ nav li a {
         padding-right: 20px;
     }
 
+}
+.section-step{
+    font-size: 20px;
 }
 
 /* tablets or mediem */
