@@ -5,7 +5,7 @@
 }
 
 .btn-primary {
-    padding: 6px;
+    padding: 10px;
     border-radius: 5px;
     background-color: #FF900E;
     color: #FFFFFF;
@@ -91,6 +91,35 @@ nav li a {
             padding: 40px;
         }
     }
+    /* Features-contain style */
+    main{      
+        max-width: 1440px;
+        margin: 0 auto;      
+    }
+    .feature-contain{
+        display: flex;
+        align-items:center ;
+    }
+    .Features-images{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .Features-title{
+        padding-left: 70px;
+        padding-right: 60px;
+        text-align: start;
+      
+        
+    }
+    .feature-col{
+        color: #FF900E;
+        font-family: 700px;
+    }
+    .feature-lis{
+        color: #727272;
+        font-weight: 500px;
+    }
 
 
-}
