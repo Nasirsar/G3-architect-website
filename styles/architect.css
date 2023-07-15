@@ -112,7 +112,7 @@ nav li a {
     .card-container, .card {
         border-radius: 5px;
         border: 1.5px solid rosybrown;
-        text-align: center;
+        /* text-align: center; */
         padding: 40px;
 
     } 
@@ -131,6 +131,22 @@ nav li a {
         margin-bottom: 10px;
        
     }
+    .section-step{
+        font-size: 20px;
+    }
+    .sponsors{
+        text-align: center;
+    }
+    .sponsors-image{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px;
+        gap: 20px;
+    }
+    .sponsors-image img{
+        width: 165px;
+    }
 
 
     /* responsive style */
@@ -140,25 +156,28 @@ nav li a {
         padding: 20px;
     }
 
-    nav, .feature-contain {
+    nav, .feature-contain, .card-container, .sponsors-image {
         flex-direction: column;
     }
+    
     .Features-images{
         grid-template-columns: 1fr;
     }
-    .Features-title{
+    .Features-title, .card-container,{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .card-container,{
+        gap: 20px;
+    }
 
 }
-.section-step{
-    font-size: 20px;
-}
+
 
 /* tablets or mediem */
 @media screen and (min-width:576px) and (max-width:992px) {
-    nav, .feature-contain  {
+    nav, .feature-contain ,    nav, .feature-contain, .card-container, .sponsors-image {
+        
         flex-direction: column;
         }
         header{
